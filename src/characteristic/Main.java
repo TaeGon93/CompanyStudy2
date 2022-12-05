@@ -17,5 +17,6 @@ public class Main {
 		dog.sleep();
 		dog.move();
 		dog.move(dog);
+		System.out.println(dog.getAnimalType()+","+dog.getName()+","+dog.getWeight());
 	}
 }

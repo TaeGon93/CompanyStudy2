@@ -52,6 +52,4 @@ public class Animal {
 		this.weight = weight;
 	}
 	
-	
-	
 }
