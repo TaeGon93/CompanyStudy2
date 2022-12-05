@@ -17,10 +17,9 @@ public class Animal {
 		System.out.println("동물이 움직인다.");
 	}
 	
-	public void move(String animalName) {//메서드 오버로딩 : 매서드명이 같지만 매개변수의 수와 매개변수의 타입이 달라야한다(다형성)
-		System.out.println(animalName+"가 움직인다.");
+	public void move(Animal animal) {//메서드 오버로딩 : 매서드명이 같지만 매개변수의 수와 매개변수의 타입이 달라야한다
+		System.out.println(animal.getName()+"가 움직인다.");
 	}
-	
 	public Animal(String animalType, String name, String weight) {
 		super();
 		this.animalType = animalType;

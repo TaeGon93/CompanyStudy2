@@ -13,7 +13,7 @@ public class Dog extends Animal{ //상속
 		Animal dog = new Dog("강아지", "말티즈", "2.6kg");
 		dog.eat();
 		dog.move();
-		dog.move("말티즈");
+		dog.move(dog);
 		dog.sleep();
 		
 		//정보의 직접적인 접근을 막아 get메서드를 통해 변수에 저장된 값을 불러와야 한다.

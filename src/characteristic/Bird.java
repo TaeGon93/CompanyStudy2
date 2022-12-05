@@ -14,10 +14,9 @@ public class Bird extends Animal{ //상속
 		Animal bird = new Bird("새", "독수리", "5kg");
 		
 		bird.eat();
-		bird.move();
-		bird.move("독수리");
 		bird.sleep();
-		
+		bird.move();
+		bird.move(bird);
 		//정보의 직접적인 접근을 막아 get메서드를 통해 변수에 저장된 값을 불러와야 한다.
 		System.out.println(bird.getAnimalType()+", "+bird.getName()+", "+bird.getWeight());
 		
