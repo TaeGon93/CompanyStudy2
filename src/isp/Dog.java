@@ -4,7 +4,7 @@ public class Dog implements Cry, Sleep{
 
 	@Override
 	public void sleep() {
-		System.out.println("잠잔다");
+		System.out.println("강아지는 잠잔다");
 	}
 
 	@Override
